@@ -5,7 +5,7 @@ import { Download, Github, Linkedin } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="mt-20 px-8">
+    <section className="my-20 px-8">
         <div className="container mx-auto">
             <div className="flex justify-around items-center gap-8">
                 <div className="flex flex-col gap-6">

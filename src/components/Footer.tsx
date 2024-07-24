@@ -2,7 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section>
+      <footer className="bg-black text-white text-center py-4">
+          <p>&copy; 2024 Shohruz Ernazarov</p>
+      </footer>
+    </section>
   )
 }
 
