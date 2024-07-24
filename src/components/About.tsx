@@ -5,8 +5,8 @@ const About = () => {
   return (
     <section id="about">
         <div className="container mx-auto">
-            <div className="flex justify-between items-center">
-                <div className="w-1/2">
+            <div className="flex justify-around items-center">
+                <div className="">
                     <Image 
                         src="/images/headshot.jpg" 
                         alt="Shohruz Ernazarov headshot photo"
