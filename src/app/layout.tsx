@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import { GoogleTagManager } from "@next/third-parties/google"
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +29,7 @@ export default function RootLayout({
         <Footer />
       </body>
       <GoogleTagManager gtmId="GTM-W429N5L3" />
+      <GoogleAnalytics gaId="G-4Q2WXQ8EPK" />
     </html>
   );
 }
