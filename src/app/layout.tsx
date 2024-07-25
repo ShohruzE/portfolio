@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+import { GoogleTagManager } from "@next/third-parties/google"
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -26,6 +28,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <GoogleTagManager gtmId="G-4Q2WXQ8EPK" />
     </html>
   );
 }
