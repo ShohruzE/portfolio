@@ -10,7 +10,7 @@ const Navbar = () => {
                     <h1 className="font-extrabold text-2xl">Shohruz.</h1>
                 </div>
                 <div>
-                    <ul className="flex justify-center items-center gap-4">
+                    <ul className="hidden sm:flex justify-center items-center gap-4">
                         <li><Link href="#about">About</Link></li>
                         <li><Link href="#experience">Experience</Link></li>
                         <li><Link href="#projects">Projects</Link></li>

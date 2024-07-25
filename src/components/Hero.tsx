@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="my-20 px-8">
         <div className="container mx-auto">
-            <div className="flex justify-around items-center gap-8">
+            <div className="flex flex-col sm:flex-row justify-around items-center gap-8">
                 <div className="flex flex-col gap-6">
                     <div>
                         <h1 className="text-5xl font-bold">Shohruz Ernazarov</h1>
