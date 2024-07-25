@@ -4,11 +4,9 @@ import Link from 'next/link'
 
 const Experience = () => {
   return (
-    <div>
       <section id="experience" className="my-20">
         <div className="container mx-auto">
-          <div className="flex justify-center items-center">
-            <div className="w-2/3 flex flex-col gap-6">
+            <div className="flex flex-col justify-center items-center gap-6">
               <h2 className="text-3xl font-bold border-b-2 border-black rounded-m text-center">Experience</h2>
               <div className="flex flex-col gap-8">
                 <div className="flex justify-between">
@@ -82,9 +80,7 @@ const Experience = () => {
               </div>
             </div>
           </div>
-        </div>
       </section>
-    </div>
   )
 }
 
