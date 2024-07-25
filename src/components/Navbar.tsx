@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="p-8 bg-black text-white">
         <div className="container mx-auto">
-            <nav className="flex justify-between">
+            <nav className="flex justify-between items-center">
                 <div>
                     <h1 className="font-extrabold text-2xl">Shohruz.</h1>
                 </div>
