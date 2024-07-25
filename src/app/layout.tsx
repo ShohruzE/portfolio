@@ -8,7 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Shohruz Ernazarov",
-  description: "Portfolio of Shohruz Ernazarov",
+  description: "Founder, Leader, & Student. Junior studying Computer Science at Hunter College. Founded his own Computer Science Club in his sophomore year, leading to over 600 members accumulated in the span of an academic year. Software Engineering Fellow at Headstarter and at CUNY Tech Prep, with aspirations to become a full-stack web developer with a focus in AI.",
+  icons: {
+    icon: "/images/hunter-cs-club.jpg",
+  }
 };
 
 export default function RootLayout({
