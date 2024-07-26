@@ -4,12 +4,12 @@ import Link from 'next/link'
 
 const Experience = () => {
   return (
-      <section id="experience" className="my-20">
+      <section id="experience" className="my-20 mx-8">
         <div className="container mx-auto">
             <div className="flex flex-col justify-center items-center gap-6">
               <h2 className="text-3xl font-bold border-b-2 border-black rounded-m text-center">Experience</h2>
-              <div className="flex flex-col gap-8">
-                <div className="flex justify-between">
+              <div className="w-full lg:w-1/2 flex flex-col gap-8">
+                <div className="flex justify-between gap-4">
                   <div>
                     <h3 className="text-2xl font-bold">Software Engineering Fellow</h3>
                     <p>Headstarter</p>
@@ -26,7 +26,7 @@ const Experience = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between gap-4">
                   <div>
                     <h3 className="text-2xl font-bold">Software Engineering Fellow</h3>
                     <p>CUNY Tech Prep</p>
@@ -43,7 +43,7 @@ const Experience = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between gap-4">
                   <div>
                     <h3 className="text-2xl font-bold">Founder, President</h3>
                     <p>Computer Science Club at Hunter College</p>
@@ -60,7 +60,7 @@ const Experience = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between gap-4">
                   <div>
                     <h3 className="text-2xl font-bold">Software Developer Engineering Intern</h3>
                     <p>Unadat</p>
