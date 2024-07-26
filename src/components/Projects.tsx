@@ -31,7 +31,7 @@ const Projects = () => {
     {
       name: 'Metfindr',
       techStack: 'React.js',
-      description: 'A front-end web application that allows users to find unique art pieces utilizing the MET API, without having to visist the MET Museum.',
+      description: 'A front-end web application that allows users to find unique art pieces utilizing the MET API, without having to visit the MET Museum.',
       imageUrl: '/images/metfindr.png',
       githubUrl: 'https://github.com/ShohruzE/metfindr',
       demoUrl: 'https://metfindr.netlify.app/'
