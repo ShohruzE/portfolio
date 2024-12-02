@@ -72,9 +72,7 @@ const Experience = () => {
             </div>
             <div className="flex justify-between gap-4">
               <div>
-                <h3 className="text-2xl font-bold">
-                  Software Developer Engineering Intern
-                </h3>
+                <h3 className="text-2xl font-bold">Software Engineer Intern</h3>
                 <p>Unadat</p>
                 <p>July 2023 - August 2023</p>
               </div>

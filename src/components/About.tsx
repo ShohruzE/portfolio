@@ -22,7 +22,7 @@ const About = () => {
             <p className="text-gray-500 text-l">
               I am a Junior studying Computer Science at Hunter College. I
               founded my own Computer Science Club in my sophomore year, leading
-              to over 600 members accumulated in the span of an academic year.
+              to over 800 members accumulated in the span of an academic year.
               I'm also a Web Development Fellow at CUNY Tech Prep, with
               aspirations to become a full-stack web developer with a focus in
               AI.{" "}
