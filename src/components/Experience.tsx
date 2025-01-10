@@ -13,6 +13,24 @@ const Experience = () => {
           <div className="w-full lg:w-1/2 flex flex-col gap-8">
             <div className="flex justify-between gap-4">
               <div>
+                <h3 className="text-2xl font-bold">Software Engineer Intern</h3>
+                <p>Movement Vault</p>
+                <p>September 2024 - Present</p>
+              </div>
+              <div>
+                <Link href="https://movementvault.com/" target="_blank">
+                  <Image
+                    src="/images/movement_vault.jpg"
+                    alt="Movement Vault logo"
+                    width={100}
+                    height={100}
+                  />
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex justify-between gap-4">
+              <div>
                 <h3 className="text-2xl font-bold">
                   Software Engineering Fellow
                 </h3>
@@ -51,7 +69,7 @@ const Experience = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex justify-between gap-4">
+            {/* <div className="flex justify-between gap-4">
               <div>
                 <h3 className="text-2xl font-bold">
                   Software Engineering Fellow
@@ -69,7 +87,7 @@ const Experience = () => {
                   />
                 </Link>
               </div>
-            </div>
+            </div> */}
             <div className="flex justify-between gap-4">
               <div>
                 <h3 className="text-2xl font-bold">Software Engineer Intern</h3>

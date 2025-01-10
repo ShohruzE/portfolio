@@ -6,6 +6,25 @@ import { Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      name: "TutorEasy",
+      techStack:
+        "Next.js, TypeScript, PostgreSQL, Prisma, Azure, GCP, Docker, Clerk, TailwindCSS",
+      description:
+        "Designed and developed a centralized platform for professors to manage tutors and increase student understanding through tutoring session analytics, enabling professors to make data-driven decisions.",
+      imageUrl: "/images/metfindr.png",
+      githubUrl: "https://github.com/ShohruzE/tutoreasy",
+      demoUrl: "https://tutoreasy-823612132472.us-central1.run.app/",
+    },
+    {
+      name: "EchoHealth",
+      techStack:
+        "Next.js, TypeScript, MongoDB, OpenAI, Firebase Auth, TailwindCSS",
+      description:
+        "Collaborated with three others at HackPrinceton (36h) to build an interactive dashboard that replaces traditional hospital whiteboards, streamlining the recording process for medical staff by integrating real-time transcription and summarization using GPT-4.",
+      imageUrl: "/images/metfindr.png",
+      githubUrl: "https://github.com/ShohruzE/hackprinceton-f24",
+    },
+    {
       name: "ClubScout",
       techStack: "Next.js, Python, Firebase, Pinecone, OpenAI, Clerk",
       description:
@@ -22,24 +41,24 @@ const Projects = () => {
       githubUrl: "https://github.com/ShohruzE/ai-flashcards",
       demoUrl: "https://ai-flashcards-beta.vercel.app/",
     },
-    {
-      name: "Connectify",
-      techStack: "MERN(MongoDB, Express.js, React.js, Node.js), MUI",
-      description:
-        "A mock full-stack social media web application with a REST API for users to create an account, post, like, comment, delete posts and friend other users.",
-      imageUrl: "/images/hunter-cs-club.jpg",
-      githubUrl: "https://github.com/ShohruzE/mern-social-media-app",
-    },
+    // {
+    //   name: "Connectify",
+    //   techStack: "MERN(MongoDB, Express.js, React.js, Node.js), MUI",
+    //   description:
+    //     "A mock full-stack social media web application with a REST API for users to create an account, post, like, comment, delete posts and friend other users.",
+    //   imageUrl: "/images/hunter-cs-club.jpg",
+    //   githubUrl: "https://github.com/ShohruzE/mern-social-media-app",
+    // },
 
-    {
-      name: "FRC 333 Robotics Website",
-      techStack: "Next.js, TailwindCSS, TypeScript",
-      description:
-        "The official website for the FRC 333 robotics team. Currently redesigning the website to be more user-friendly and accessible in Next.js and TailwindCSS.",
-      imageUrl: "/images/frc333.png",
-      githubUrl: "https://github.com/ShohruzE/jdhs-robotics-website/",
-      demoUrl: "https://www.frc333.com/",
-    },
+    // {
+    //   name: "FRC 333 Robotics Website",
+    //   techStack: "Next.js, TailwindCSS, TypeScript",
+    //   description:
+    //     "The official website for the FRC 333 robotics team. Currently redesigning the website to be more user-friendly and accessible in Next.js and TailwindCSS.",
+    //   imageUrl: "/images/frc333.png",
+    //   githubUrl: "https://github.com/ShohruzE/jdhs-robotics-website/",
+    //   demoUrl: "https://www.frc333.com/",
+    // },
   ];
 
   return (
