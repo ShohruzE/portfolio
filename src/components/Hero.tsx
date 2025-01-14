@@ -42,7 +42,7 @@ const Hero = () => {
               <FaGithub size={30} />
             </motion.a>
             <motion.a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/shohruz-ernazarov"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -64,12 +64,12 @@ const Hero = () => {
           </div>
         </motion.div>
         <motion.div
-          className="flex-1 relative"
+          className=""
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <div className="w-3/4 lg:w-full mx-auto sm:mx-8 aspect-square relative">
+          <div className="w-3/4 lg:w-full mx-auto sm:mx-8">
             <Image
               src="/images/hero.jpg"
               alt="Shohruz Ernazarov speaking at one of his club events"
@@ -90,10 +90,12 @@ const Hero = () => {
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
         >
-          <FiChevronDown
-            size={40}
-            className="text-white opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
-          />
+          <motion.a href="#about">
+            <FiChevronDown
+              size={40}
+              className="text-white opacity-50 hover:opacity-100 transition-opacity cursor-pointer"
+            />
+          </motion.a>
         </motion.div>
       </motion.div>
       {/* <div className="text-white">sfsfsfsfs</div> */}
