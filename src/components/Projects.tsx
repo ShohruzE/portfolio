@@ -22,7 +22,7 @@ const projects = [
     ],
     description:
       "Designed and developed a centralized platform for professors to manage tutors and increase student understanding through tutoring session analytics, enabling professors to make data-driven decisions.",
-    imageUrl: "/images/metfindr.png",
+    imageUrl: "/images/tutoreasy.png",
     githubUrl: "https://github.com/ShohruzE/tutoreasy",
     demoUrl: "https://tutoreasy-823612132472.us-central1.run.app/",
   },
@@ -38,7 +38,7 @@ const projects = [
     ],
     description:
       "Collaborated with three others at HackPrinceton (36h) to build an interactive dashboard that replaces traditional hospital whiteboards, streamlining the recording process for medical staff by integrating real-time transcription and summarization using GPT-4.",
-    imageUrl: "/images/metfindr.png",
+    imageUrl: "/images/placeholder.png",
     githubUrl: "https://github.com/ShohruzE/hackprinceton-f24",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     techStack: ["Next.js", "Python", "Firebase", "Pinecone", "OpenAI", "Clerk"],
     description:
       "Developed a full-stack platform for a 72-hour hackathon, enabling students to discover and connect with 100+ clubs through personalized recommendations, utilizing scraped web data powered by RAG.",
-    imageUrl: "/images/metfindr.png",
+    imageUrl: "/images/placeholder.png",
     githubUrl: "https://github.com/ShohruzE/ctphacks24",
   },
   {
@@ -54,7 +54,7 @@ const projects = [
     techStack: ["Next.js", "Firebase", "Stripe", "OpenAI", "Clerk"],
     description:
       "Collaborated with 2 team members to create a B2C SaaS for consumers to create and study from personalized flashcard sets through OpenAIs LLM, enhancing study efficiency.",
-    imageUrl: "/images/honeydo.jpg",
+    imageUrl: "/images/honeycomb.png",
     githubUrl: "https://github.com/ShohruzE/ai-flashcards",
     demoUrl: "https://ai-flashcards-beta.vercel.app/",
   },
