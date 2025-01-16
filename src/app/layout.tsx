@@ -4,16 +4,17 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google"
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Shohruz Ernazarov",
-  description: "Founder, Leader, & Student. Junior studying Computer Science at Hunter College. Founded his own Computer Science Club in his sophomore year, leading to over 600 members accumulated in the span of an academic year. Software Engineering Fellow at Headstarter and at CUNY Tech Prep, with aspirations to become a full-stack web developer with a focus in AI.",
+  description:
+    "Founder, Leader, & Student. Junior studying Computer Science at Hunter College. Founded his own Computer Science Club in his sophomore year, leading to over 800 members accumulated in the span of an academic year. Software Engineering Fellow at CUNY Tech Prep, with aspirations to become a full-stack web developer with a focus in AI.",
   icons: {
     icon: "/images/hunter-cs-club.jpg",
-  }
+  },
 };
 
 export default function RootLayout({
