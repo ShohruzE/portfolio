@@ -28,8 +28,8 @@ const Hero = () => {
             </p>
           </div>
           <p className="text-xl text-gray-400 max-w-2xl mb-6">
-            Software Engineer Intern at Movement Vault | Founder and President
-            of CS Club at Hunter College | CUNY Tech Prep Fellow
+            Founder and President of CS Club at Hunter College | CUNY Tech Prep
+            Fellow
           </p>
           <div className="flex items-center gap-6">
             <motion.a
