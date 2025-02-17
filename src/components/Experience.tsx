@@ -6,14 +6,6 @@ import Link from "next/link";
 
 const experiences = [
   {
-    title: "Software Engineer Intern",
-    company: "Movement Vault (Startup)",
-    date: "September 2024 - Present",
-    description:
-      "Optimized app performance by incorporating lazy loading for images and videos stored in AWS S3, ensuring efficient resource usage, which led to a 10% decrease in initial load-up time for 4500+ exercises.",
-    logo: "/images/movement_vault.jpg",
-  },
-  {
     title: "Software Engineering Fellow",
     company: "CUNY Tech Prep",
     date: "August 2024 - Present",
@@ -28,6 +20,14 @@ const experiences = [
     description:
       "Directed a team of 10 to organize 13 events, including technical workshops, speaker panels, and networking socials, for a total of 700+ attendees from a 800+ member roster.",
     logo: "/images/hunter-cs-club.jpg",
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "Movement Vault (Startup)",
+    date: "September 2024 - January 2025",
+    description:
+      "Optimized app performance by incorporating lazy loading for images and videos stored in AWS S3, ensuring efficient resource usage, which led to a 10% decrease in initial load-up time for 4500+ exercises.",
+    logo: "/images/movement_vault.jpg",
   },
   {
     title: "Software Engineer Intern",
