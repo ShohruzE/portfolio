@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { X, Menu } from "lucide-react";
 
-const navbarItems = ["About", "Experience", "Projects", "Skills", "Contact"];
+const navbarItems = ["About", "Experience", "Projects", "Skills"];
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -62,11 +62,7 @@ const Navbar = () => {
         </div>
       </div>
       {isMenuOpen && (
-        <motion.div
-          className="md:hidden"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-        >
+        <motion.div className="md:hidden" initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }}>
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black/90 backdrop-blur-sm">
             {navbarItems.map((item) => (
               <Link
