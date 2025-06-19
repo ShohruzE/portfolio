@@ -28,15 +28,16 @@ const skillCategories = [
       { name: "MongoDB", icon: "/images/mongodb.jpg" },
       { name: "C++", icon: "/images/cpp.png" },
       { name: "Java", icon: "/images/java.png" },
+      { name: "Ruby", icon: "/images/ruby.png" },
       { name: "PHP", icon: "/images/php.png" },
     ],
   },
   {
     name: "Infrastructure & Tools",
     skills: [
+      { name: "AWS", icon: "/images/aws.png" },
       { name: "Microsoft Azure", icon: "/images/azure.png" },
       { name: "GCP", icon: "/images/gcp.png" },
-      { name: "AWS", icon: "/images/aws.png" },
       { name: "Git", icon: "/images/git.png" },
       { name: "GitHub", icon: "/images/github.svg" },
       { name: "Docker", icon: "/images/docker.png" },
@@ -103,9 +104,7 @@ export default function Skills() {
     // </section>
     <section id="skills" className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center text-white">
-          Skills
-        </h2>
+        <h2 className="text-4xl font-bold mb-12 text-center text-white">Skills</h2>
         <div className="space-y-16">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
@@ -116,9 +115,7 @@ export default function Skills() {
               viewport={{ once: true }}
               className="bg-white/5 rounded-xl p-8"
             >
-              <h3 className="text-2xl font-semibold mb-6 text-center text-blue-400">
-                {category.name}
-              </h3>
+              <h3 className="text-2xl font-semibold mb-6 text-center text-blue-400">{category.name}</h3>
               <div className="flex justify-center items-center gap-12 flex-wrap">
                 {category.skills.map((skill, skillIndex) => (
                   <motion.div

@@ -6,20 +6,36 @@ import Link from "next/link";
 
 const experiences = [
   {
-    title: "Software Engineering Fellow",
-    company: "CUNY Tech Prep",
-    date: "August 2024 - Present",
+    title: "Solutions Engineer Intern",
+    company: "Burt Intelligence",
+    date: "June 2025 - Present",
     description:
-      "Selected for an intensive software engineering career development program focused on full-stack web development, technical interview prep, and building AI applications.",
-    logo: "/images/ctp-logo-square.png",
+      "Developing reusable API integration templates in Ruby, reducing projected onboarding time for new customer datasources by 40%.",
+    logo: "/images/burt-intelligence.jpg",
   },
   {
     title: "Founder & President",
     company: "Computer Science Club, Hunter College",
     date: "August 2023 - Present",
     description:
-      "Directed a team of 10 to organize 13 events, including technical workshops, speaker panels, and networking socials, for a total of 700+ attendees from a 800+ member roster.",
+      "Directed a team of 22 to organize 17 career-readiness events for a total of 800+ attendees from a 1100+ roster.",
     logo: "/images/hunter-cs-club.jpg",
+  },
+  {
+    title: "Software Engineer Intern",
+    company: "Mermory (Startup)",
+    date: "April 2025 - June 2025",
+    description:
+      "Improved hot reloading and build times by 20% by refactoring bloated page layouts and React components, leading to faster development cycles and improved incremental build times.",
+    logo: "/images/mermory-logo.jpg",
+  },
+  {
+    title: "Software Engineering Fellow",
+    company: "CUNY Tech Prep",
+    date: "August 2024 - May 2025",
+    description:
+      "Selected for an intensive software engineering career development program focused on full-stack web development, technical interview prep, and building AI applications.",
+    logo: "/images/ctp-logo-square.png",
   },
   {
     title: "Software Engineer Intern",
@@ -148,9 +164,7 @@ export default function Experience() {
     // </section>
     <section id="experience" className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-white text-center mb-12">
-          Experience
-        </h2>
+        <h2 className="text-4xl font-bold text-white text-center mb-12">Experience</h2>
         <div className="max-w-4xl mx-auto space-y-12">
           {experiences.map((experience, index) => (
             <motion.div
@@ -169,9 +183,7 @@ export default function Experience() {
                 className="w-20 h-20 object-contain rounded-lg bg-white/10 p-2"
               />
               <div>
-                <h3 className="text-2xl text-white font-bold mb-2">
-                  {experience.title}
-                </h3>
+                <h3 className="text-2xl text-white font-bold mb-2">{experience.title}</h3>
                 <p className="text-blue-400 mb-2">{experience.company}</p>
                 <p className="text-gray-400 mb-4">{experience.date}</p>
                 <p className="text-gray-300 mb-4">{experience.description}</p>

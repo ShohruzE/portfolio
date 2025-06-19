@@ -19,17 +19,12 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="flex-1 text-left z-10"
         >
-          <h1 className="text-5xl sm:text-7xl font-bold mb-2 text-white">
-            Shohruz Ernazarov
-          </h1>
+          <h1 className="text-5xl sm:text-7xl font-bold mb-2 text-white">Shohruz Ernazarov</h1>
           <div className="mb-6">
-            <p className="text-xl sm:text-2xl text-gray-300">
-              Founder, Leader, & Student
-            </p>
+            <p className="text-xl sm:text-2xl text-gray-300">Founder, Leader, & Student</p>
           </div>
           <p className="text-xl text-gray-400 max-w-2xl mb-6">
-            Founder and President of CS Club at Hunter College | CUNY Tech Prep
-            Fellow
+            Founder and President of CS Club at Hunter College | Solutions Engineer Intern at Burt Intelligence
           </p>
           <div className="flex items-center gap-6">
             <motion.a
@@ -86,10 +81,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 0.5 }}
       >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-        >
+        <motion.div animate={{ y: [0, 10, 0] }} transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}>
           <motion.a href="#about">
             <FiChevronDown
               size={40}

@@ -42,23 +42,17 @@ export default function About() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-bold text-white text-center mb-12">
-            About Me
-          </h2>
+          <h2 className="text-4xl font-bold text-white text-center mb-12">About Me</h2>
           <div>
             <p className="text-xl text-gray-300 leading-relaxed">
-              I'm a Junior at Hunter College, set to graduate in May 2026. As
-              the founder of the Computer Science Club, I've built a thriving
-              community of over 800 members in just one academic year. Currently
-              serving as a Web Development Fellow at CUNY Tech Prep, I'm
-              developing my expertise in full-stack development with a focus on
-              AI integration.
+              I'm a rising Senior at Hunter College, set to graduate in May 2026. As the founder of the Computer Science
+              Club, I've built a thriving community of over 1000 members in 2 years. Currently interning as a Solutions
+              Engineer Intern at Burt Intelligence.
             </p>
             <p className="text-xl text-gray-300 mt-6 leading-relaxed">
-              My mission is to push the boundaries of what's possible in web
-              development and artificial intelligence. I believe in creating
-              solutions that not only solve problems but revolutionize how we
-              interact with technology.
+              My mission is to push the boundaries of what's possible in web development and artificial intelligence. I
+              believe in creating solutions that not only solve problems but revolutionize how we interact with
+              technology.
             </p>
           </div>
         </motion.div>
