@@ -45,14 +45,13 @@ export default function About() {
           <h2 className="text-4xl font-bold text-white text-center mb-12">About Me</h2>
           <div>
             <p className="text-xl text-gray-300 leading-relaxed">
-              I'm a rising Senior at Hunter College, set to graduate in May 2026. As the founder of the Computer Science
-              Club, I've built a thriving community of over 1000 members in 2 years. Currently interning as a Solutions
-              Engineer Intern at Burt Intelligence.
+              I'm a Senior at Hunter College, set to graduate in May 2026. As the founder of the Computer Science Club,
+              I've built a thriving community of over 1000 members in 2 years. Currently interning as a Software
+              Engineer Intern at Metropolitan Transportation Authority.
             </p>
             <p className="text-xl text-gray-300 mt-6 leading-relaxed">
-              My mission is to push the boundaries of what's possible in web development and artificial intelligence. I
-              believe in creating solutions that not only solve problems but revolutionize how we interact with
-              technology.
+              My mission is to push the boundaries of what's possible in web development and applied AI. I believe in
+              creating solutions that not only solve problems but revolutionize how we interact with technology.
             </p>
           </div>
         </motion.div>

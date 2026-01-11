@@ -23,6 +23,9 @@ const skillCategories = [
     skills: [
       { name: "Node.js", icon: "/images/nodejs.png" },
       { name: "Express.js", icon: "/images/expressjs.png" },
+      { name: "Spring Boot", icon: "/images/spring-boot.png" },
+      { name: "Nest.js", icon: "/images/nestjs.svg" },
+      { name: "FastAPI", icon: "/images/fastapi.svg" },
       { name: "Python", icon: "/images/python.png" },
       { name: "PostgreSQL", icon: "/images/postgresql.png" },
       { name: "MongoDB", icon: "/images/mongodb.jpg" },
@@ -41,6 +44,7 @@ const skillCategories = [
       { name: "Git", icon: "/images/git.png" },
       { name: "GitHub", icon: "/images/github.svg" },
       { name: "Docker", icon: "/images/docker.png" },
+      { name: "LangChain", icon: "/images/langchain.png" },
       { name: "Vercel", icon: "/images/vercel.svg" },
       { name: "Netlify", icon: "/images/netlify.png" },
       { name: "Postman", icon: "/images/postman.png" },

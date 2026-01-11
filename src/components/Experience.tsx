@@ -6,11 +6,19 @@ import Link from "next/link";
 
 const experiences = [
   {
+    title: "Software Engineer Intern",
+    company: "Metropolitan Transportation Authority (MTA)",
+    date: "October 2025 - Present",
+    description:
+      "Implemented a full-stack real-time RFID tracking system using React, TypeScript, Java, Spring Boot, and Kafka, with SSE streaming for live updates, enabling continuous monitoring of 1000+ trains daily across 10+ readers",
+    logo: "/images/mta.jpg",
+  },
+  {
     title: "Solutions Engineer Intern",
     company: "Burt Intelligence",
-    date: "June 2025 - Present",
+    date: "June 2025 - August 2025",
     description:
-      "Developing reusable API integration templates in Ruby, reducing projected onboarding time for new customer datasources by 40%.",
+      "Deployed a RAG Slackbot using Python, FastAPI, AWS Lambda, Bedrock and S3, processed 1000+ files ofConfluence and Drive data for real-time Q&A with 90+% accuracy, cutting average employee search time by 70%",
     logo: "/images/burt-intelligence.jpg",
   },
   {
@@ -18,7 +26,7 @@ const experiences = [
     company: "Computer Science Club, Hunter College",
     date: "August 2023 - Present",
     description:
-      "Directed a team of 22 to organize 17 career-readiness events for a total of 800+ attendees from a 1100+ roster.",
+      "Directed a team of 22 to organize 20 career-readiness events for a total of 900+ attendees from a 1200+ roster.",
     logo: "/images/hunter-cs-club.jpg",
   },
   {

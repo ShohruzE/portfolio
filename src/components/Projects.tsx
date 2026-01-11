@@ -8,18 +8,17 @@ import Link from "next/link";
 
 const projects = [
   {
+    name: "CityCompass",
+    techStack: ["Python", "FastAPI", "LangChain", "Next.js", "React", "TypeScript", "PostgreSQL", "Docker"],
+    description:
+      "A comprehensive city exploration and discovery platform built with FastAPI and Next.js. Features include city data visualization, recommendation systems, and real-time data processing with a PostgreSQL database and pgAdmin for management.",
+    imageUrl: "/images/citycompass.png",
+    githubUrl: "https://github.com/ShohruzE/citycompass",
+    demoUrl: "https://citycompass.vercel.app",
+  },
+  {
     name: "TutorEasy",
-    techStack: [
-      "Next.js",
-      "TypeScript",
-      "PostgreSQL",
-      "Prisma",
-      "Azure",
-      "GCP",
-      "Docker",
-      "Clerk",
-      "TailwindCSS",
-    ],
+    techStack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Azure", "GCP", "Docker", "Clerk", "TailwindCSS"],
     description:
       "Designed and developed a centralized platform for professors to manage tutors and increase student understanding through tutoring session analytics, enabling professors to make data-driven decisions.",
     imageUrl: "/images/tutoreasy.png",
@@ -28,14 +27,7 @@ const projects = [
   },
   {
     name: "EchoHealth",
-    techStack: [
-      "Next.js",
-      "TypeScript",
-      "MongoDB",
-      "OpenAI",
-      "Firebase Auth",
-      "TailwindCSS",
-    ],
+    techStack: ["Next.js", "TypeScript", "MongoDB", "OpenAI", "Firebase Auth", "TailwindCSS"],
     description:
       "Collaborated with three others at HackPrinceton (36h) to build an interactive dashboard that replaces traditional hospital whiteboards, streamlining the recording process for medical staff by integrating real-time transcription and summarization using GPT-4.",
     imageUrl: "/images/placeholder.png",
@@ -49,15 +41,15 @@ const projects = [
     imageUrl: "/images/placeholder.png",
     githubUrl: "https://github.com/ShohruzE/ctphacks24",
   },
-  {
-    name: "HoneyComb",
-    techStack: ["Next.js", "Firebase", "Stripe", "OpenAI", "Clerk"],
-    description:
-      "Collaborated with 2 team members to create a B2C SaaS for consumers to create and study from personalized flashcard sets through OpenAIs LLM, enhancing study efficiency.",
-    imageUrl: "/images/honeycomb.png",
-    githubUrl: "https://github.com/ShohruzE/ai-flashcards",
-    demoUrl: "https://ai-flashcards-beta.vercel.app/",
-  },
+  // {
+  //   name: "HoneyComb",
+  //   techStack: ["Next.js", "Firebase", "Stripe", "OpenAI", "Clerk"],
+  //   description:
+  //     "Collaborated with 2 team members to create a B2C SaaS for consumers to create and study from personalized flashcard sets through OpenAIs LLM, enhancing study efficiency.",
+  //   imageUrl: "/images/honeycomb.png",
+  //   githubUrl: "https://github.com/ShohruzE/ai-flashcards",
+  //   demoUrl: "https://ai-flashcards-beta.vercel.app/",
+  // },
   // {
   //   name: "Connectify",
   //   techStack: "MERN(MongoDB, Express.js, React.js, Node.js), MUI",
@@ -128,9 +120,7 @@ export default function Projects() {
     // </section>
     <section id="projects" className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center text-white">
-          Projects
-        </h2>
+        <h2 className="text-4xl font-bold mb-12 text-center text-white">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((project, index) => (
             <motion.div
@@ -142,12 +132,7 @@ export default function Projects() {
               viewport={{ once: true }}
             >
               <div className="relative group aspect-video">
-                <Image
-                  src={project.imageUrl}
-                  alt={project.name}
-                  fill
-                  className="object-cover"
-                />
+                <Image src={project.imageUrl} alt={project.name} fill className="object-cover" />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
                   <motion.a
                     href={project.githubUrl}
@@ -172,16 +157,11 @@ export default function Projects() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl text-white font-semibold mb-2">
-                  {project.name}
-                </h3>
+                <h3 className="text-xl text-white font-semibold mb-2">{project.name}</h3>
                 <p className="text-gray-400 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.techStack.map((technology, index) => (
-                    <span
-                      key={index}
-                      className="bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full text-sm"
-                    >
+                    <span key={index} className="bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full text-sm">
                       {technology}
                     </span>
                   ))}

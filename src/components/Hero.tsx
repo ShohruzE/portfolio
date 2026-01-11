@@ -24,7 +24,8 @@ const Hero = () => {
             <p className="text-xl sm:text-2xl text-gray-300">Founder, Leader, & Student</p>
           </div>
           <p className="text-xl text-gray-400 max-w-2xl mb-6">
-            Founder and President of CS Club at Hunter College | Solutions Engineer Intern at Burt Intelligence
+            Founder and President of CS Club at Hunter College | Software Engineer Intern at Metropolitan Transportation
+            Authority
           </p>
           <div className="flex items-center gap-6">
             <motion.a

@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Shohruz Ernazarov",
   description:
-    "Founder, Leader, & Student. Rising Senior studying Computer Science at Hunter College. Founded his own Computer Science Club in his sophomore year, leading to over 1000 members accumulated in the span of two years. Solutions Engineer Intern at Burt Intelligence, with aspirations to become a full-stack developer with a focus in AI.",
+    "Founder, Leader, & Student. Graduating Senior studying Computer Science at Hunter College. Founded his own Computer Science Club in his sophomore year, leading to over 1000 members accumulated in the span of two years. Software Engineer Intern at Metropolitan Transportation Authority, with aspirations to become a full-stack developer with a focus in AI.",
   icons: {
     icon: "/images/hunter-cs-club.jpg",
   },
